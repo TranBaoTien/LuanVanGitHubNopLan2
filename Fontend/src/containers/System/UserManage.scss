@@ -1,0 +1,82 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background: #9fc0b8;  /* fallback for old browsers */
+ 
+    }
+  
+  #customers tr:hover {  /* fallback for old browsers */
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: red;    
+
+    }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+  }
+  .btn-edit{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: rgb(50, 182, 243);
+    background-color: transparent;
+    &:hover{
+        background-color: transparent !important;
+          
+      }
+}
+.btn-delete{
+  width: 50px;
+  border: none;
+  outline: none;
+  color: rgb(255, 9, 9);
+  background-color: transparent;
+  &:hover{
+      background-color: transparent !important;
+        
+    }
+   
+}
+.modal-content{
+  width: 125% !important;
+}
+.modalcontainer{
+  .modeluser{
+    display: flex;
+    gap: 15px;//khoan cach giu cac thang con voi nhau
+    flex-wrap: wrap;
+    .input-container{
+      display: flex;
+      flex-direction: column;
+      width: 48%;
+      &.max-input{
+        width: 100%;
+      }
+      input{
+        border-radius: 5px;
+        border: 1px solid gray;
+        height: 33px;
+        padding: 0 10px;
+        outline: none;
+  
+      }
+    }
+  }
+
+}

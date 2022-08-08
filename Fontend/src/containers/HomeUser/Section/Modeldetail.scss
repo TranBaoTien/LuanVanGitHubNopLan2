@@ -1,0 +1,23 @@
+.modalcontainer{
+    .modeluser{
+      display: block;
+      gap: 15px;//khoan cach giu cac thang con voi nhau
+      font-size: 15px;
+      .input-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        &.max-input{
+          width: 100%;
+        }
+        .tieude-detail{background-color: rgb(221, 212, 212);}
+        .lable-detail{
+          border-top: 1px solid rgb(236, 230, 230);
+          height: 33px;
+          padding: 0 10px;
+          outline: none;
+          label{padding-right: 50px;}
+    
+        }
+      }
+    }}

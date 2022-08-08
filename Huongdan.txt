@@ -1,0 +1,7 @@
+Lưu ý tải Nodejs v14 
+Mở Wamp trước để có cơ sở dữ liệu
+Vào backend-> mở terminal-> npm i (chờ chạy xong)->tiếp theo npm start
+Vào fontendt-> mở terminal-> npm i (chờ chạy xong)->tiếp theo npm start
+
+Mở link khách hàng chạy local bình thường
+Vào Admin localhost:8080/login
